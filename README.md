@@ -1,2 +1,3 @@
-# Crazy-Eights
-Crazy Eights Card Game - Programmed in Java.
+## 22 - Card Game
+
+Createa a console based card game per the Canvas assignment.
