@@ -25,13 +25,14 @@ public class CrazyEights {
 			players = scan.nextInt();
 			if (players <= 0) {
 				if (Math.abs(players) <= 8 && Math.abs(players) >= 2) {
-					System.out.println(
-							"You can't have a negative amount of players. Did you mean " + Math.abs(players) + "?");
+					System.out.println("You can't have a negative amount of players. Did you mean "
+							   + Math.abs(players) + "?");
 					System.out.println("(Enter 'y' for yes, and anything else for no)");
 					y_or_n = scan.next();
 					if (y_or_n.equals("y")) {
 						players = Math.abs(players);
-						System.out.println("Alright! The total player count is now " + Math.abs(players) + "!");
+						System.out.println("Alright! The total player count is now " + 
+								   Math.abs(players) + "!");
 						break;
 					} else {
 						System.out.println("Alright! Enter a valid amount of players!");
@@ -132,7 +133,8 @@ public class CrazyEights {
 				if (player[i].cardsInHand().size() == 0) {
 					winner = i;
 					System.out.println("Congratulations on " + player[winner].getName()
-							+ " for winning the Crazy Eights Card Game ! I hope you had a lot of fun ! You can also try to play again !");
+							+ " for winning the Crazy Eights Card Game ! I hope you had a lot of fun ! 
+							   You can also try to play again !");
 					return;
 				}
 			}
@@ -161,7 +163,8 @@ public class CrazyEights {
 				if (player[i].cardsInHand().size() == 0) {
 					winner = i;
 					System.out.println("Congratulations on " + player[winner].getName()
-							+ " for winning the Crazy Eights Card Game ! I hope you had a lot of fun ! You can also try to play again !");
+							+ " for winning the Crazy Eights Card Game ! I hope you had a lot of fun ! 
+							   You can also try to play again !");
 					break;
 				}
 			}
