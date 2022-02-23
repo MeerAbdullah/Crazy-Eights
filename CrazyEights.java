@@ -135,7 +135,8 @@ public class CrazyEights {
 				if (player[i].cardsInHand().size() == 0) {
 					winner = i;
 					System.out.println("Congratulations on " + player[winner].getName()
-							+ " for winning the Crazy Eights Card Game ! I hope you had a lot of fun ! You can also try to play again !");
+							+ " for winning the Crazy Eights Card Game ! I hope you had a lot of fun ! 
+							   You can also try to play again !");
 					return;
 				}
 			}
@@ -164,7 +165,8 @@ public class CrazyEights {
 				if (player[i].cardsInHand().size() == 0) {
 					winner = i;
 					System.out.println("Congratulations on " + player[winner].getName()
-							+ " for winning the Crazy Eights Card Game ! I hope you had a lot of fun ! You can also try to play again !");
+							+ " for winning the Crazy Eights Card Game ! I hope you had a lot of fun ! 
+							   You can also try to play again !");
 					break;
 				}
 			}
